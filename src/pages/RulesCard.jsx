@@ -12,8 +12,6 @@ export default function RulesPage() {
 
     return (
         <div className="rounded-2xl border border-blue-200 bg-white/80 shadow-lg backdrop-blur px-4 py-5 space-y-4 text-slate-800 text-sm leading-relaxed max-h-[60vh] overflow-y-auto">
-            <h2 className="font-semibold text-lg">📜 Нэвтрэх системийн журам</h2>
-
             {/* Sub Tabs */}
             <div className="grid grid-cols-2 gap-2 sticky top-0 bg-white/80 backdrop-blur py-1 z-10">
                 <button className={btnStyle(sub === "goal")} onClick={() => setSub("goal")}>
@@ -44,7 +42,7 @@ export default function RulesPage() {
                     📝 Хариуцлага
                 </button>
                 <button className={btnStyle(sub === "pdf")} onClick={() => setSub("pdf")}>
-                    📂 Журам (PDF)
+                    📂 PDF харах
                 </button>
             </div>
 

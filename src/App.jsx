@@ -28,7 +28,7 @@ export default function App() {
                         📖 Заавар
                     </button>
                     <button className={btnStyle(page === "rules")} onClick={() => setPage("rules")}>
-                        📜 Журам
+                        📜 Дэлгэрэнгүй
                     </button>
                 </div>
 
